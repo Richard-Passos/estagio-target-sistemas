@@ -6,9 +6,7 @@ const isFibonacci = (n) => {
 
   while(y < n) [x, y] = [y, x + y];
 
-  const res = n === 0 || y === n
-
-  return res
+  return n === 0 || y === n
 }
 
 console.log('- result -', isFibonacci(...process.argv.slice(2))) 
