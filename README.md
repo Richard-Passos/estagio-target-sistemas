@@ -82,11 +82,13 @@ I turn on switch 1 for 5 minutes, then turn off switch 1 and turn on switch 2. I
 Escreva um programa que inverta os caracteres de um string.
 
 IMPORTANTE:
+
 a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
+
 b) Evite usar funções prontas, como, por exemplo, reverse;
 
 ### Solution: 5 / 5
-[reverse](https://github.com/Richard-Passos/estagio-target-sistemas/blob/main/reverse.js)
+[reverseStr](https://github.com/Richard-Passos/estagio-target-sistemas/blob/main/reverseStr.js)
 
 <br/>
 
