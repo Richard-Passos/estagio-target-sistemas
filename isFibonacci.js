@@ -1,5 +1,4 @@
 const isFibonacci = (n) => {
-  console.log('-  n   -', n)
   n = +n
 
   let x = 0,
