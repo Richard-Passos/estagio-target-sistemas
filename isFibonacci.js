@@ -1,4 +1,5 @@
 const isFibonacci = (n) => {
+  console.log('-  n   -', n)
   n = +n
 
   let x = 0,
@@ -11,6 +12,6 @@ const isFibonacci = (n) => {
   return res
 }
 
-console.log('- result -', isFibonacci(process.argv.slice(2))) 
+console.log('- result -', isFibonacci(...process.argv.slice(2))) 
 
 module.exports = isFibonacci
